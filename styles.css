@@ -1,0 +1,91 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+#playing {
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#scorekeeper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#title {
+  border: solid 1px #e0e0e0;
+  border-bottom: 0;
+  box-sizing: border-box;
+  margin: 0;
+  width: 300px;
+}
+
+#score {
+  border: solid 1px #e0e0e0;
+  box-sizing: border-box;
+  margin: 0;
+  width: 300px;
+}
+
+#scoring {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  font-size: 1em;
+  transition-duration: 0.1s;
+}
+
+.button:active {
+  transform: translateY(2px);
+}
+
+.button:nth-of-type(1) {
+  background-color: #ff1493;
+}
+
+.button:nth-of-type(1):hover {
+  background-color: #af1a42;
+}
+
+.button:active {
+  transform: translateY(3px);
+}
+
+.button:nth-of-type(2) {
+  background-color: #206eff;
+}
+
+.button:nth-of-type(2):hover {
+  background-color: #1808a7;
+}
+
+.button:nth-of-type(3) {
+  background-color: #ff6600;
+}
+
+.button:nth-of-type(3):hover {
+  background-color: rgb(177, 71, 0);
+}
